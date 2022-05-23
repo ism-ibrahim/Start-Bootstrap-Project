@@ -9,8 +9,8 @@
             color: #8a8989
     .textbox
         text-align: right
-        max-width: 397px
-        margin: 0 75px
+        width: 40%
+        margin-right: 30px
         h1,h2
             font-size: 30px
             font-weight: 700
@@ -20,11 +20,17 @@
             font-size: 19px
             line-height: 1.4
             color: #8a8989
+            margin: 0 0 0 120px
+            // BUNA BAXARSAN
     .txt-left
+        width: 38%
+        margin-left: 30px
         text-align: left
+        h3
+            margin: 0 90px 0 0
     .imgbox
-        max-width: 202px
-        border: 8px solid #8a898934
+        max-width: 195px
+        border: 7px solid #8a898934
         border-radius: 50%
     .yellow-circle
         h1
@@ -35,54 +41,80 @@
             font-weight: 700
             line-height: 1
             width: 190px
-            border: 8px solid #e7eaeafe
+            border: 7px solid #e7eaeafe
             border-radius: 50%
             padding: 41px 47px
-            margin: 0 555px
 
+    @media screen and ( max-width: 1399px )
+        .imgbox
+            width: 155px
+            margin-bottom: 85px
 
+    @media screen and ( max-width: 1199px )
+        .imgbox
+            width: 115px
+            margin-bottom: 152px
 
-    @media screen and ( max-width: 425px )
-        .textbox
-            text-align: left
-            h1,h2
-                font-size: 20px
-            h3
-                font-size: 15px
-        .text-left
-            text-align: right
+    @media screen and ( max-width: 1024px )
+        .imgbox
+            width: 150px
+            margin-bottom: 120px
+        .yellow-circle
+            h1
+                font-size: 22px
+                width: 148px
+                padding: 32px 35px
 
+    @media screen and ( max-width: 991px )
+        .imgbox
+            width: 120px
+            margin-bottom: 310px
 
     @media screen and ( max-width: 768px )
         .imgbox
-            max-width: 110px
-            margin-bottom: 85px
+            width: 98px
+            margin-bottom: 333px
+        .yellow-circle
+            h1
+                font-size: 13px
+                width: 100px
+                padding: 21px 24px
+
+    @media screen and ( max-width: 425px )
         .reverse
             display: flex
             flex-direction: row-reverse
         .textbox
-            max-width: 350px
             text-align: left
-            h1,h2
-                font-size: 25px
+            width: 600px
             h3
-                font-size: 18px
-        .text-left
-            text-align: right
+                margin: 0
+        .txt-left
+            text-align: left
+            h3
+                margin: 0
+        .imgbox
+            width: 195px
+            margin-bottom: 200px
         .yellow-circle
             h1
-                width: 120px
-                margin-left: 85px
-        
-    @media screen and ( max-width: 1024px )
-        .yellow-circle
-            h1
-                background-color: #ffc800
-                color: #fff
                 font-size: 13px
-                font-weight: 700
-                line-height: 1
-                border: 8px solid #e7eaeafe
-                border-radius: 50%
-                padding: 26px 28px
-                text-align: center
+                width: 93px
+                padding: 17px 21px
+                margin-right: 300px
+
+    @media screen and ( max-width: 375px )
+        .imgbox
+            width: 195px
+            margin-bottom: 275px
+        .yellow-circle
+            h1
+                margin-right: 270px
+
+    @media screen and ( max-width: 320px )
+        .imgbox
+            width: 320px
+            margin-bottom: 400px
+        .yellow-circle
+            h1
+                margin-right: 200px

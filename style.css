@@ -257,8 +257,8 @@ header .menu nav a:hover {
 }
 #about .textbox {
   text-align: right;
-  max-width: 397px;
-  margin: 0 75px;
+  width: 40%;
+  margin-right: 30px;
 }
 #about .textbox h1, #about .textbox h2 {
   font-size: 30px;
@@ -271,13 +271,19 @@ header .menu nav a:hover {
   font-size: 19px;
   line-height: 1.4;
   color: #8a8989;
+  margin: 0 0 0 120px;
 }
 #about .txt-left {
+  width: 38%;
+  margin-left: 30px;
   text-align: left;
 }
+#about .txt-left h3 {
+  margin: 0 90px 0 0;
+}
 #about .imgbox {
-  max-width: 202px;
-  border: 8px solid rgba(138, 137, 137, 0.2039215686);
+  max-width: 195px;
+  border: 7px solid rgba(138, 137, 137, 0.2039215686);
   border-radius: 50%;
 }
 #about .yellow-circle h1 {
@@ -288,63 +294,95 @@ header .menu nav a:hover {
   font-weight: 700;
   line-height: 1;
   width: 190px;
-  border: 8px solid rgba(231, 234, 234, 0.9960784314);
+  border: 7px solid rgba(231, 234, 234, 0.9960784314);
   border-radius: 50%;
   padding: 41px 47px;
-  margin: 0 555px;
 }
-@media screen and (max-width: 425px) {
-  #about .textbox {
-    text-align: left;
+@media screen and (max-width: 1399px) {
+  #about .imgbox {
+    width: 155px;
+    margin-bottom: 85px;
   }
-  #about .textbox h1, #about .textbox h2 {
-    font-size: 20px;
+}
+@media screen and (max-width: 1199px) {
+  #about .imgbox {
+    width: 115px;
+    margin-bottom: 152px;
   }
-  #about .textbox h3 {
-    font-size: 15px;
+}
+@media screen and (max-width: 1024px) {
+  #about .imgbox {
+    width: 150px;
+    margin-bottom: 120px;
   }
-  #about .text-left {
-    text-align: right;
+  #about .yellow-circle h1 {
+    font-size: 22px;
+    width: 148px;
+    padding: 32px 35px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #about .imgbox {
+    width: 120px;
+    margin-bottom: 310px;
   }
 }
 @media screen and (max-width: 768px) {
   #about .imgbox {
-    max-width: 110px;
-    margin-bottom: 85px;
+    width: 98px;
+    margin-bottom: 333px;
   }
+  #about .yellow-circle h1 {
+    font-size: 13px;
+    width: 100px;
+    padding: 21px 24px;
+  }
+}
+@media screen and (max-width: 425px) {
   #about .reverse {
     display: flex;
     flex-direction: row-reverse;
   }
   #about .textbox {
-    max-width: 350px;
     text-align: left;
-  }
-  #about .textbox h1, #about .textbox h2 {
-    font-size: 25px;
+    width: 600px;
   }
   #about .textbox h3 {
-    font-size: 18px;
+    margin: 0;
   }
-  #about .text-left {
-    text-align: right;
+  #about .txt-left {
+    text-align: left;
+  }
+  #about .txt-left h3 {
+    margin: 0;
+  }
+  #about .imgbox {
+    width: 195px;
+    margin-bottom: 200px;
   }
   #about .yellow-circle h1 {
-    width: 120px;
-    margin-left: 85px;
+    font-size: 13px;
+    width: 93px;
+    padding: 17px 21px;
+    margin-right: 300px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 375px) {
+  #about .imgbox {
+    width: 195px;
+    margin-bottom: 275px;
+  }
   #about .yellow-circle h1 {
-    background-color: #ffc800;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1;
-    border: 8px solid rgba(231, 234, 234, 0.9960784314);
-    border-radius: 50%;
-    padding: 26px 28px;
-    text-align: center;
+    margin-right: 270px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #about .imgbox {
+    width: 320px;
+    margin-bottom: 400px;
+  }
+  #about .yellow-circle h1 {
+    margin-right: 200px;
   }
 }
 
