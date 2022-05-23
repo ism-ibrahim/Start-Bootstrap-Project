@@ -1,0 +1,62 @@
+header
+    background-color: #212529
+    position: fixed
+    z-index: 1
+    width: 100%
+    padding: 5px 0 18px
+    .menu
+        max-width: 1536px
+        margin-top: 25px
+        .imgbox
+            max-width: 190px
+            img
+                cursor: pointer
+        nav
+            margin-left: auto
+            a
+                cursor: pointer
+                font-size: 18px
+                color: #fff
+                margin: 20px 18px 50px
+                &:hover
+                    color: #dfbf0c
+    @media screen and ( max-width: 768px )
+        .imgbox
+            width: 150px
+            margin-top: 10px
+        nav
+            display: none
+        .iconbox
+            cursor: pointer
+            border: 2px solid #ffffff25
+            width: 100px
+            height: 35px
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            h1
+                color: #ffffff8c
+                font-size: 15px
+                margin-right: 10px
+            .icon
+                color: #ffffff8c
+                margin-right: 20px
+                cursor: pointer
+            &:hover
+                border: 3px solid #ffffff91
+                h1
+                    color: #ffffff91
+                    cursor: pointer
+                .icon
+                    color: #ffffff91
+    @media screen and (max-width: 991px )
+        .menu
+            nav
+                margin-left: 10px
+                a
+                    cursor: pointer
+                    font-size: 18px
+                    color: #fff
+                    margin: 20px 10px 50px
+                    &:hover
+                        color: #dfbf0c
