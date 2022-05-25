@@ -333,6 +333,9 @@ header .menu nav a:hover {
     width: 98px;
     margin-bottom: 333px;
   }
+  #about .edit {
+    margin-left: 0;
+  }
   #about .yellow-circle h1 {
     font-size: 13px;
     width: 100px;
