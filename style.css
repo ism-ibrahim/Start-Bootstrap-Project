@@ -245,6 +245,9 @@ header .menu nav a:hover {
   cursor: pointer;
 }
 
+#about .edit {
+  margin-left: 0;
+}
 #about .txt h1 {
   font-size: 50px;
   font-weight: 700;
@@ -277,9 +280,6 @@ header .menu nav a:hover {
   margin-left: 30px;
   text-align: left;
 }
-#about .txt-left h3 {
-  margin: 0 90px 0 0;
-}
 #about .imgbox {
   max-width: 195px;
   border: 7px solid rgba(138, 137, 137, 0.2039215686);
@@ -310,12 +310,18 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 1024px) {
+  #about .textbox h3 {
+    margin: 0 0 0 25px;
+  }
+  #about .txt-left h3 {
+    margin: 0 17px 0 0;
+  }
+  #about .edit {
+    margin-left: 79px;
+  }
   #about .imgbox {
     width: 150px;
     margin-bottom: 120px;
-  }
-  #about .edit {
-    margin-left: 31px;
   }
   #about .yellow-circle h1 {
     font-size: 22px;
@@ -323,7 +329,7 @@ header .menu nav a:hover {
     padding: 32px 35px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   #about .imgbox {
     width: 120px;
     margin-bottom: 310px;
@@ -332,10 +338,7 @@ header .menu nav a:hover {
 @media screen and (max-width: 768px) {
   #about .imgbox {
     width: 98px;
-    margin-bottom: 333px;
-  }
-  #about .edit {
-    margin-left: 0;
+    margin-bottom: 360px;
   }
   #about .yellow-circle h1 {
     font-size: 13px;
@@ -344,6 +347,9 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 425px) {
+  #about .edit {
+    margin-left: 0;
+  }
   #about .reverse {
     display: flex;
     flex-direction: row-reverse;
@@ -365,9 +371,6 @@ header .menu nav a:hover {
     width: 195px;
     margin-bottom: 200px;
   }
-  #about .edit {
-    margin-left: 0;
-  }
   #about .yellow-circle h1 {
     font-size: 13px;
     width: 93px;
@@ -376,6 +379,9 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 375px) {
+  #about .edit {
+    margin-left: 0;
+  }
   #about .imgbox {
     width: 195px;
     margin-bottom: 275px;
@@ -385,6 +391,9 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 320px) {
+  #about .edit {
+    margin-left: 0;
+  }
   #about .imgbox {
     width: 320px;
     margin-bottom: 400px;
