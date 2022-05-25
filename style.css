@@ -252,7 +252,7 @@ header .menu nav a:hover {
 #about .txt h2 {
   font-size: 20px;
   margin: 20px;
-  color: #8a8989;
+  color: #6c757d;
 }
 #about .textbox {
   text-align: right;
@@ -269,8 +269,7 @@ header .menu nav a:hover {
 #about .textbox h3 {
   font-size: 19px;
   line-height: 1.4;
-  color: #8a8989;
-  margin: 0 0 0 120px;
+  color: #6c757d;
 }
 #about .txt-left {
   width: 38%;
@@ -313,6 +312,9 @@ header .menu nav a:hover {
   #about .imgbox {
     width: 150px;
     margin-bottom: 120px;
+  }
+  #about .edit {
+    margin-left: 31px;
   }
   #about .yellow-circle h1 {
     font-size: 22px;
@@ -358,6 +360,9 @@ header .menu nav a:hover {
   #about .imgbox {
     width: 195px;
     margin-bottom: 200px;
+  }
+  #about .edit {
+    margin-left: 0;
   }
   #about .yellow-circle h1 {
     font-size: 13px;
