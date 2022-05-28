@@ -126,6 +126,15 @@ header .menu nav a:hover {
 #welcome .textbox .btn:hover {
   background-color: rgba(213, 169, 23, 0.9529411765);
 }
+@media screen and (max-width: 1024px) {
+  #welcome .textbox h3 {
+    font-size: 50px;
+  }
+  #welcome .textbox h1 {
+    font-size: 80px;
+    margin: 20px 0 60px;
+  }
+}
 @media screen and (max-width: 768px) {
   #welcome {
     padding: 100px 0;
@@ -334,11 +343,16 @@ header .menu nav a:hover {
     width: 120px;
     margin-bottom: 310px;
   }
+  #about .yellow-circle h1 {
+    font-size: 16px;
+    width: 124px;
+    padding: 28px 24px;
+  }
 }
 @media screen and (max-width: 768px) {
   #about .imgbox {
     width: 98px;
-    margin-bottom: 360px;
+    margin-bottom: 400px;
   }
   #about .yellow-circle h1 {
     font-size: 13px;
@@ -479,6 +493,11 @@ header .menu nav a:hover {
     margin: auto;
   }
 }
+@media screen and (max-width: 1400px) {
+  #team .imgbox {
+    margin: auto;
+  }
+}
 
 #company {
   padding: 40px 0;
@@ -499,6 +518,11 @@ header .menu nav a:hover {
 #company .ibm {
   margin-top: 10px;
   max-width: 110px;
+}
+@media screen and (max-width: 992px) {
+  #company .imgbox {
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 769px) {
   #company .imgbox {
@@ -527,7 +551,7 @@ header .menu nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 740px;
+  padding: 30px 0;
 }
 #contact h1 {
   font-size: 50px;
