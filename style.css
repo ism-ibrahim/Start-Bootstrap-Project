@@ -326,7 +326,7 @@ header .menu nav a:hover {
     margin: 0 17px 0 0;
   }
   #about .edit {
-    margin-left: 79px;
+    margin-left: 0;
   }
   #about .imgbox {
     width: 150px;
@@ -349,15 +349,36 @@ header .menu nav a:hover {
     padding: 28px 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  #about .edit {
+    margin-left: 0;
+  }
+  #about .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #about .textbox {
+    text-align: left;
+    width: 600px;
+  }
+  #about .textbox h3 {
+    margin: 0;
+  }
+  #about .txt-left {
+    text-align: left;
+  }
+  #about .txt-left h3 {
+    margin: 0;
+  }
   #about .imgbox {
-    width: 98px;
-    margin-bottom: 400px;
+    width: 195px;
+    margin-bottom: 200px;
   }
   #about .yellow-circle h1 {
-    font-size: 13px;
-    width: 100px;
-    padding: 21px 24px;
+    font-size: 18px;
+    width: 120px;
+    padding: 24px 21px;
+    margin-right: 415px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -370,7 +391,7 @@ header .menu nav a:hover {
   }
   #about .textbox {
     text-align: left;
-    width: 600px;
+    width: 450px;
   }
   #about .textbox h3 {
     margin: 0;
@@ -398,7 +419,7 @@ header .menu nav a:hover {
   }
   #about .imgbox {
     width: 195px;
-    margin-bottom: 275px;
+    margin-bottom: 285px;
   }
   #about .yellow-circle h1 {
     margin-right: 270px;
@@ -409,7 +430,7 @@ header .menu nav a:hover {
     margin-left: 0;
   }
   #about .imgbox {
-    width: 320px;
+    width: 90vw;
     margin-bottom: 400px;
   }
   #about .yellow-circle h1 {
