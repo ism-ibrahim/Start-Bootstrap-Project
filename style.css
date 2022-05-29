@@ -566,7 +566,6 @@ header .menu nav a:hover {
 }
 
 #contact {
-  padding: 0;
   background-image: url("assets/Contact us/map.png");
   background-color: #212529;
   background-position: center;
@@ -628,13 +627,6 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  #contact #contact {
-    background-image: url("assets/Contact us/map.png");
-    background-color: #212529;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   #contact input {
     width: 100%;
     margin-bottom: 20px;
