@@ -254,8 +254,9 @@ header .menu nav a:hover {
   cursor: pointer;
 }
 
-#about .edit {
-  margin-left: 0;
+#about .reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 #about .txt h1 {
   font-size: 50px;
@@ -268,29 +269,30 @@ header .menu nav a:hover {
   color: #6c757d;
 }
 #about .textbox {
-  text-align: right;
-  width: 40%;
-  margin-right: 30px;
+  text-align: left;
+  width: 55%;
+  margin: 0 70px 0 30px;
 }
 #about .textbox h1, #about .textbox h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
 }
 #about .textbox h2 {
   margin: 10px 0;
 }
 #about .textbox h3 {
-  font-size: 19px;
+  font-size: 22px;
   line-height: 1.4;
   color: #6c757d;
 }
 #about .txt-left {
-  width: 38%;
-  margin-left: 30px;
+  width: 55%;
+  margin: 0 70px 0 30px;
   text-align: left;
 }
 #about .imgbox {
-  max-width: 195px;
+  max-width: 20%;
+  height: 50%;
   border: 7px solid rgba(138, 137, 137, 0.2039215686);
   border-radius: 50%;
 }
@@ -298,93 +300,15 @@ header .menu nav a:hover {
   text-align: center;
   background-color: #ffc800;
   color: #fff;
-  font-size: 28px;
   font-weight: 700;
   line-height: 1;
-  width: 190px;
   border: 7px solid rgba(231, 234, 234, 0.9960784314);
   border-radius: 50%;
-  padding: 41px 47px;
+  font-size: 12px;
+  max-width: 193px;
+  padding: 9px;
 }
-@media screen and (max-width: 1399px) {
-  #about .imgbox {
-    width: 155px;
-    margin-bottom: 85px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  #about .imgbox {
-    width: 115px;
-    margin-bottom: 152px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  #about .textbox h3 {
-    margin: 0 0 0 25px;
-  }
-  #about .txt-left h3 {
-    margin: 0 17px 0 0;
-  }
-  #about .edit {
-    margin-left: 0;
-  }
-  #about .imgbox {
-    width: 150px;
-    margin-bottom: 120px;
-  }
-  #about .yellow-circle h1 {
-    font-size: 22px;
-    width: 148px;
-    padding: 32px 35px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #about .imgbox {
-    width: 120px;
-    margin-bottom: 310px;
-  }
-  #about .yellow-circle h1 {
-    font-size: 16px;
-    width: 124px;
-    padding: 28px 24px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #about .edit {
-    margin-left: 0;
-  }
-  #about .reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  #about .textbox {
-    text-align: left;
-    width: 600px;
-  }
-  #about .textbox h3 {
-    margin: 0;
-  }
-  #about .txt-left {
-    text-align: left;
-  }
-  #about .txt-left h3 {
-    margin: 0;
-  }
-  #about .imgbox {
-    width: 195px;
-    margin-bottom: 200px;
-  }
-  #about .yellow-circle h1 {
-    font-size: 18px;
-    width: 120px;
-    padding: 24px 21px;
-    margin-right: 415px;
-  }
-}
-@media screen and (max-width: 425px) {
-  #about .edit {
-    margin-left: 0;
-  }
+@media screen and (min-width: 576px) {
   #about .reverse {
     display: flex;
     flex-direction: row-reverse;
@@ -413,28 +337,70 @@ header .menu nav a:hover {
     margin-right: 300px;
   }
 }
-@media screen and (max-width: 375px) {
-  #about .edit {
-    margin-left: 0;
+@media screen and (min-width: 768px) {
+  #about .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #about .textbox {
+    text-align: left;
+    width: 600px;
+  }
+  #about .textbox h3 {
+    margin: 0;
+  }
+  #about .txt-left {
+    text-align: left;
+  }
+  #about .txt-left h3 {
+    margin: 0;
   }
   #about .imgbox {
     width: 195px;
-    margin-bottom: 285px;
   }
   #about .yellow-circle h1 {
-    margin-right: 270px;
+    font-size: 18px;
+    width: 120px;
+    padding: 24px 21px;
+    margin-right: 415px;
   }
 }
-@media screen and (max-width: 320px) {
-  #about .edit {
-    margin-left: 0;
+@media screen and (min-width: 992px) {
+  #about .reverse {
+    display: flex;
+    flex-direction: row;
+  }
+  #about .textbox {
+    text-align: right;
+    width: 55%;
+    margin: 0 70px 0 30px;
+  }
+  #about .textbox h1, #about .textbox h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  #about .textbox h2 {
+    margin: 10px 0;
+  }
+  #about .textbox h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #6c757d;
+  }
+  #about .txt-left {
+    width: 55%;
+    margin: 0 70px 0 30px;
+    text-align: left;
   }
   #about .imgbox {
-    width: 90vw;
-    margin-bottom: 400px;
+    width: 120px;
+    margin-bottom: 310px;
   }
   #about .yellow-circle h1 {
-    margin-right: 200px;
+    font-size: 13px;
+    width: 93px;
+    padding: 17px 21px;
+    margin-right: 300px;
   }
 }
 

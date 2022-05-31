@@ -1,6 +1,7 @@
 #about
-    .edit
-        margin-left: 0
+    .reverse
+        display: flex
+        flex-direction: row-reverse
     .txt
         h1
             font-size: 50px
@@ -11,24 +12,25 @@
             margin: 20px
             color: #6c757d
     .textbox
-        text-align: right
-        width: 40%
-        margin-right: 30px
+        text-align: left
+        width: 55%
+        margin: 0 70px 0 30px
         h1,h2
-            font-size: 30px
+            font-size: 24px
             font-weight: 700
         h2
             margin: 10px 0
         h3
-            font-size: 19px
+            font-size: 22px
             line-height: 1.4
             color: #6c757d
     .txt-left
-        width: 38%
-        margin-left: 30px
+        width: 55%
+        margin: 0 70px 0 30px
         text-align: left
     .imgbox
-        max-width: 195px
+        max-width: 20%
+        height: 50%
         border: 7px solid #8a898934
         border-radius: 50%
     .yellow-circle
@@ -36,80 +38,15 @@
             text-align: center
             background-color: #ffc800
             color: #fff
-            font-size: 28px
             font-weight: 700
             line-height: 1
-            width: 190px
             border: 7px solid #e7eaeafe
             border-radius: 50%
-            padding: 41px 47px
+            font-size: 12px
+            max-width: 193px
+            padding: 9px
 
-    @media screen and ( max-width: 1399px )
-        .imgbox
-            width: 155px
-            margin-bottom: 85px
-
-    @media screen and ( max-width: 1199px )
-        .imgbox
-            width: 115px
-            margin-bottom: 152px
-
-    @media screen and ( max-width: 1024px )
-        .textbox
-            h3
-                margin: 0 0 0 25px
-        .txt-left
-            h3
-                margin: 0 17px 0 0
-        .edit
-            margin-left: 0
-        .imgbox
-            width: 150px
-            margin-bottom: 120px
-        .yellow-circle
-            h1
-                font-size: 22px
-                width: 148px
-                padding: 32px 35px
-
-    @media screen and ( max-width: 992px )
-        .imgbox
-            width: 120px
-            margin-bottom: 310px
-        .yellow-circle
-            h1
-                font-size: 16px
-                width: 124px
-                padding: 28px 24px
-
-    @media screen and ( max-width: 767px )
-        .edit
-            margin-left: 0
-        .reverse
-            display: flex
-            flex-direction: row-reverse
-        .textbox
-            text-align: left
-            width: 600px
-            h3
-                margin: 0
-        .txt-left
-            text-align: left
-            h3
-                margin: 0
-        .imgbox
-            width: 195px
-            margin-bottom: 200px
-        .yellow-circle
-            h1
-                font-size: 18px
-                width: 120px
-                padding: 24px 21px
-                margin-right: 415px
-
-    @media screen and ( max-width: 425px )
-        .edit
-            margin-left: 0
+    @media screen and ( min-width: 576px )
         .reverse
             display: flex
             flex-direction: row-reverse
@@ -132,22 +69,55 @@
                 padding: 17px 21px
                 margin-right: 300px
 
-    @media screen and ( max-width: 375px )
-        .edit
-            margin-left: 0
+    @media screen and ( min-width: 768px )
+        .reverse
+            display: flex
+            flex-direction: row-reverse
+        .textbox
+            text-align: left
+            width: 600px
+            h3
+                margin: 0
+        .txt-left
+            text-align: left
+            h3
+                margin: 0
         .imgbox
             width: 195px
-            margin-bottom: 285px
         .yellow-circle
             h1
-                margin-right: 270px
+                font-size: 18px
+                width: 120px
+                padding: 24px 21px
+                margin-right: 415px
 
-    @media screen and ( max-width: 320px )
-        .edit
-            margin-left: 0
+    @media screen and ( min-width: 992px )
+        .reverse
+            display: flex
+            flex-direction: row
+        .textbox
+            text-align: right
+            width: 55%
+            margin: 0 70px 0 30px
+            h1,h2
+                font-size: 24px
+                font-weight: 700
+            h2
+                margin: 10px 0
+            h3
+                font-size: 22px
+                line-height: 1.4
+                color: #6c757d
+        .txt-left
+            width: 55%
+            margin: 0 70px 0 30px
+            text-align: left
         .imgbox
-            width: 90vw
-            margin-bottom: 400px
+            width: 120px
+            margin-bottom: 310px
         .yellow-circle
             h1
-                margin-right: 200px
+                font-size: 13px
+                width: 93px
+                padding: 17px 21px
+                margin-right: 300px
