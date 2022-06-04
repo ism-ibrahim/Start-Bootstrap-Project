@@ -402,6 +402,7 @@ header .menu nav a:hover {
 #team ul {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 #team ul li {
   margin: 0 15px 0 10px;
@@ -423,7 +424,6 @@ header .menu nav a:hover {
   max-width: 810px;
   font-size: 20px;
   color: #6c757d;
-  margin: 50px 10px 0;
   text-align: center;
 }
 
