@@ -507,22 +507,17 @@ header .menu nav a:hover {
 footer {
   padding: 10px 0;
 }
-footer h1 {
-  margin: 20px 0 10px 10px;
+footer h1, footer h2, footer h3 {
   font-size: 18px;
   color: #212529;
   cursor: pointer;
+}
+footer h1 {
+  margin: 20px 0 10px 10px;
 }
 footer h2, footer h3 {
   display: inline-block;
   margin: 5px 0 20px 10px;
-  font-size: 18px;
-  color: #212529;
-  cursor: pointer;
-}
-footer ul {
-  display: flex;
-  justify-content: center;
 }
 footer ul li {
   margin: 10px;
