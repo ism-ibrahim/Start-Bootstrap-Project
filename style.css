@@ -211,7 +211,6 @@ header .menu nav a:hover {
 }
 #portfolio .imgbox {
   position: relative;
-  z-index: 0.5;
 }
 #portfolio .imgbox .overlay {
   display: flex;
@@ -222,14 +221,14 @@ header .menu nav a:hover {
   background-color: rgba(255, 200, 0, 0.9019607843);
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   opacity: 0;
+  transition: 0.8s;
 }
 #portfolio .imgbox .overlay:hover {
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
