@@ -2,16 +2,16 @@
     background-image: url("assets/Welcome/welcome.jpg")
     background-position: center
     background-size: cover
-    padding: 150px 0
+    padding: 100px 0
     .textbox
         color: #fff
-        padding: 150px 0
         h3
-            font-size: 50px
+            font-size: 30px
+            margin: 20px 0 30px
         h1
-            font-size: 95px
+            font-size: 70px
             font-weight: 700
-            margin: 40px 0 80px
+            margin-bottom: 20px
         .btn
             padding: 20px 60px
             background-color: #dfbf0c
@@ -22,24 +22,19 @@
             &:hover
                 background-color: #d5a917f3
 
-
-    @media screen and ( max-width: 1024px )
-            .textbox
-                h3
-                    font-size: 50px
-                h1
-                    font-size: 80px
-                    margin: 20px 0 60px
-
-
-    @media screen and ( max-width: 768px )
-        padding: 100px 0
+    @media screen and ( min-width: 576px )
+        background-position: center
+        background-size: cover
         .textbox
-            padding: 50px 0
             h3
-                font-size: 30px
+                font-size: 40px
             h1
-                font-size: 60px
+                font-size: 90px
                 margin: 20px 0 40px
             .btn
                 padding: 15px 40px
+
+    @media screen and ( min-width: 768px )
+        padding: 100px 0
+        .textbox
+            padding: 160px 0
