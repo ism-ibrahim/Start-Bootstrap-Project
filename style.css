@@ -432,49 +432,29 @@ header .menu nav a:hover {
   padding: 40px 0;
 }
 #company .imgbox {
-  margin-left: 80px;
+  margin: 15px 0;
 }
 #company .microsoft {
-  margin-top: 5px;
-  max-width: 190px;
+  margin-top: 60px;
+  max-width: 200px;
 }
 #company .google {
-  max-width: 130px;
+  max-width: 120px;
 }
 #company .facebook {
   max-width: 160px;
 }
 #company .ibm {
-  margin-top: 10px;
   max-width: 110px;
 }
-@media screen and (max-width: 992px) {
-  #company .imgbox {
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 769px) {
-  #company .imgbox {
-    margin: 20px 0;
-  }
+@media screen and (min-width: 576px) {
   #company .microsoft {
-    margin-top: 25px;
-    max-width: 190px;
-  }
-  #company .google {
-    max-width: 130px;
-  }
-  #company .facebook {
-    max-width: 160px;
-  }
-  #company .ibm {
     margin-top: 20px;
-    max-width: 110px;
   }
 }
 
 #contact {
-  background-image: url("assets/Contact us/map.png");
+  background-image: url("assets/Contact/map.png");
   background-color: #212529;
   background-position: center;
   background-repeat: no-repeat;
