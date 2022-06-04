@@ -519,6 +519,10 @@ footer h2, footer h3 {
   display: inline-block;
   margin: 5px 0 20px 10px;
 }
+footer ul {
+  display: flex;
+  justify-content: center;
+}
 footer ul li {
   margin: 10px;
 }
