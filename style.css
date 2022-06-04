@@ -151,6 +151,9 @@ header .menu nav a:hover {
   }
 }
 
+#services {
+  padding: 20px 0;
+}
 #services .textbox h1 {
   font-size: 50px;
   font-weight: 700;
@@ -171,7 +174,7 @@ header .menu nav a:hover {
   background-color: #ffc800;
   color: #fff;
   font-size: 65px;
-  margin-left: 195px;
+  margin: auto;
 }
 #services .box h1 {
   font-size: 30px;
@@ -183,27 +186,6 @@ header .menu nav a:hover {
   font-size: 20px;
   color: #6c757d;
   margin-bottom: 30px;
-}
-@media screen and (max-width: 320px) {
-  #services .box h3 {
-    margin-bottom: 20px;
-  }
-  #services .box .icon {
-    margin: 60px;
-  }
-}
-@media screen and (max-width: 425px) {
-  #services .box h3 {
-    margin-bottom: 20px;
-  }
-  #services .box .icon {
-    margin: auto;
-  }
-}
-@media screen and (min-width: 768px) {
-  #services .box .icon {
-    margin: auto;
-  }
 }
 
 #portfolio h1 {
