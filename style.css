@@ -406,16 +406,16 @@ header .menu nav a:hover {
 }
 #team ul li {
   margin: 0 15px 0 10px;
+}
+#team ul li .icon {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
-  padding: 20px;
-  width: 10px;
-  height: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 14px;
+  font-size: 24px;
   cursor: pointer;
-}
-#team ul li .icon {
-  margin: -8px;
 }
 #team ul li .icon i {
   cursor: pointer;
@@ -525,23 +525,22 @@ footer .box ul {
   justify-content: center;
 }
 footer .box ul li {
-  margin: 10px 15px 10px 10px;
+  margin: 15px 26px 10px 10px;
+}
+footer .box ul li .icon {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
-  padding: 20px;
-  width: 10px;
-  height: 10px;
+  padding: 13px;
+  width: 41px;
+  height: 42px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
 }
-footer .box ul .icon {
-  margin: -8px;
-}
-footer .box ul .icon i {
+footer .box ul li .icon i {
   cursor: pointer;
 }
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 390px) {
   footer .box {
     display: flex;
     flex-wrap: wrap;
