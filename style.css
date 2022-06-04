@@ -507,26 +507,27 @@ header .menu nav a:hover {
 footer {
   padding: 10px 0;
 }
-footer .box h1 {
-  margin: 20px;
+footer h1 {
+  margin: 20px 0 10px 10px;
   font-size: 18px;
   color: #212529;
   cursor: pointer;
 }
-footer .box h2, footer .box h3 {
-  margin: 20px 10px;
+footer h2, footer h3 {
+  display: inline-block;
+  margin: 5px 0 20px 10px;
   font-size: 18px;
   color: #212529;
   cursor: pointer;
 }
-footer .box ul {
+footer ul {
   display: flex;
   justify-content: center;
 }
-footer .box ul li {
-  margin: 15px 26px 10px 10px;
+footer ul li {
+  margin: 10px;
 }
-footer .box ul li .icon {
+footer ul li .icon {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
@@ -536,21 +537,11 @@ footer .box ul li .icon {
   cursor: pointer;
   font-size: 18px;
 }
-footer .box ul li .icon i {
+footer ul li .icon i {
   cursor: pointer;
 }
-@media screen and (min-width: 390px) {
-  footer .box {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  footer .box h1 {
-    margin: 20px 0 10px 50px;
-  }
-  footer .box h2, footer .box h3 {
-    margin: 0 0 20px 40px;
-  }
-  footer .box ul {
-    margin-left: 60px;
+@media screen and (min-width: 576px) {
+  footer h2, footer h3 {
+    margin: 20px 0 20px 10px;
   }
 }/*# sourceMappingURL=style.css.map */
