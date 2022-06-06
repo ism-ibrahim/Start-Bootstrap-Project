@@ -182,7 +182,7 @@ header .menu .iconbox:hover .icon {
   font-weight: 700;
   margin-top: 30px;
 }
-#portfolio h2 {
+#portfolio h3 {
   font-size: 20px;
   margin: 20px 0 60px;
   color: #8a8989;
@@ -190,13 +190,10 @@ header .menu .iconbox:hover .icon {
 #portfolio .box {
   text-align: center;
 }
-#portfolio .box h1 {
+#portfolio .box h2 {
   font-size: 35px;
   font-weight: 700;
-}
-#portfolio .box h2 {
-  font-size: 20px;
-  color: #8a8989;
+  margin-top: 25px;
 }
 #portfolio .imgbox {
   position: relative;
