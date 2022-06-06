@@ -5,26 +5,9 @@ header
     width: 100%
     padding: 5px 0 18px
     .menu
-        max-width: 1536px
-        margin-top: 20px
-        .imgbox
-            max-width: 150px
-            img
-                cursor: pointer
-        nav
-            margin-left: auto
-            a
-                font-size: 18px
-                color: #fff
-                margin: 20px 18px 50px
-                &:hover
-                    cursor: pointer
-                    color: #dfbf0c
-
-    @media screen and ( max-width: 768px )
         .imgbox
             width: 150px
-            margin-top: 10px
+            margin-top: 18px
         nav
             display: none
         .iconbox
@@ -35,6 +18,7 @@ header
             display: flex
             justify-content: flex-end
             align-items: center
+            margin-top: 10px
             h1
                 color: #ffffff8c
                 font-size: 15px
@@ -51,14 +35,20 @@ header
                 .icon
                     color: #ffffff91
 
-    @media screen and (max-width: 991px )
+    @media screen and ( min-width: 992px )
         .menu
+            .imgbox
+                width: 150px
+                margin-top: 15px
             nav
-                margin-left: 10px
+                display: block
+                margin-top: 20px
                 a
-                    cursor: pointer
                     font-size: 18px
                     color: #fff
-                    margin: 20px 10px 50px
+                    margin: 20px 18px 50px
                     &:hover
+                        cursor: pointer
                         color: #dfbf0c
+            .iconbox
+                display: none

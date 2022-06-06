@@ -21,78 +21,63 @@ header {
   width: 100%;
   padding: 5px 0 18px;
 }
-header .menu {
-  max-width: 1536px;
-  margin-top: 20px;
-}
 header .menu .imgbox {
-  max-width: 150px;
-}
-header .menu .imgbox img {
-  cursor: pointer;
+  width: 150px;
+  margin-top: 18px;
 }
 header .menu nav {
-  margin-left: auto;
+  display: none;
 }
-header .menu nav a {
-  font-size: 18px;
-  color: #fff;
-  margin: 20px 18px 50px;
-}
-header .menu nav a:hover {
+header .menu .iconbox {
   cursor: pointer;
-  color: #dfbf0c;
+  border: 2px solid rgba(255, 255, 255, 0.1450980392);
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
 }
-@media screen and (max-width: 768px) {
-  header .imgbox {
+header .menu .iconbox h1 {
+  color: rgba(255, 255, 255, 0.5490196078);
+  font-size: 15px;
+  margin-right: 10px;
+}
+header .menu .iconbox .icon {
+  color: rgba(255, 255, 255, 0.5490196078);
+  margin-right: 20px;
+  cursor: pointer;
+}
+header .menu .iconbox:hover {
+  border: 3px solid rgba(255, 255, 255, 0.568627451);
+}
+header .menu .iconbox:hover h1 {
+  color: rgba(255, 255, 255, 0.568627451);
+  cursor: pointer;
+}
+header .menu .iconbox:hover .icon {
+  color: rgba(255, 255, 255, 0.568627451);
+}
+@media screen and (min-width: 992px) {
+  header .menu .imgbox {
     width: 150px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
-  header nav {
-    display: none;
-  }
-  header .iconbox {
-    cursor: pointer;
-    border: 2px solid rgba(255, 255, 255, 0.1450980392);
-    width: 100px;
-    height: 35px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  header .iconbox h1 {
-    color: rgba(255, 255, 255, 0.5490196078);
-    font-size: 15px;
-    margin-right: 10px;
-  }
-  header .iconbox .icon {
-    color: rgba(255, 255, 255, 0.5490196078);
-    margin-right: 20px;
-    cursor: pointer;
-  }
-  header .iconbox:hover {
-    border: 3px solid rgba(255, 255, 255, 0.568627451);
-  }
-  header .iconbox:hover h1 {
-    color: rgba(255, 255, 255, 0.568627451);
-    cursor: pointer;
-  }
-  header .iconbox:hover .icon {
-    color: rgba(255, 255, 255, 0.568627451);
-  }
-}
-@media screen and (max-width: 991px) {
   header .menu nav {
-    margin-left: 10px;
+    display: block;
+    margin-top: 20px;
   }
   header .menu nav a {
-    cursor: pointer;
     font-size: 18px;
     color: #fff;
-    margin: 20px 10px 50px;
+    margin: 20px 18px 50px;
   }
   header .menu nav a:hover {
+    cursor: pointer;
     color: #dfbf0c;
+  }
+  header .menu .iconbox {
+    display: none;
   }
 }
 
