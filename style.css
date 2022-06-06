@@ -527,6 +527,16 @@ footer ul li .icon i {
 }
 @media screen and (min-width: 576px) {
   footer h2, footer h3 {
+    margin: 0 0 20px 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer h2, footer h3 {
+    margin: 20px 0 20px 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer h2, footer h3 {
     margin: 20px 0 20px 10px;
   }
 }/*# sourceMappingURL=style.css.map */
