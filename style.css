@@ -97,7 +97,7 @@ header .menu .iconbox:hover .icon {
 #welcome .textbox h1 {
   font-size: 70px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 #welcome .textbox .btn {
   padding: 20px 60px;
@@ -117,10 +117,10 @@ header .menu .iconbox:hover .icon {
     background-size: cover;
   }
   #welcome .textbox h3 {
-    font-size: 40px;
+    font-size: 25px;
   }
   #welcome .textbox h1 {
-    font-size: 90px;
+    font-size: 70px;
     margin: 20px 0 40px;
   }
   #welcome .textbox .btn {
@@ -132,7 +132,18 @@ header .menu .iconbox:hover .icon {
     padding: 100px 0;
   }
   #welcome .textbox {
-    padding: 160px 0;
+    padding: 100px 0;
+  }
+  #welcome .textbox h3 {
+    font-size: 40px;
+  }
+  #welcome .textbox h1 {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #welcome .textbox {
+    padding: 140px 0;
   }
 }
 
