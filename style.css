@@ -263,17 +263,19 @@ header .menu .iconbox:hover .icon {
   border-radius: 50%;
   margin-right: 20px;
 }
-#about .yellow-circle h1 {
-  text-align: center;
+#about .yellow-circle {
   background-color: #ffc800;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
   width: 103px;
   border: 7px solid rgba(231, 234, 234, 0.9960784314);
   border-radius: 50%;
   padding: 18px 20px;
+}
+#about .yellow-circle h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
 }
 @media screen and (min-width: 576px) {
   #about .textbox {
@@ -293,11 +295,13 @@ header .menu .iconbox:hover .icon {
     width: 195px;
     margin-right: 50px;
   }
-  #about .yellow-circle h1 {
-    font-size: 20px;
+  #about .yellow-circle {
     width: 111px;
     padding: 13px 20px;
     margin: 0;
+  }
+  #about .yellow-circle h1 {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -317,11 +321,13 @@ header .menu .iconbox:hover .icon {
     width: 85px;
     margin-right: 20px;
   }
-  #about .yellow-circle h1 {
-    font-size: 15px;
+  #about .yellow-circle {
     width: 86px;
     padding: 11px 5px;
     margin-right: 25px;
+  }
+  #about .yellow-circle h1 {
+    font-size: 15px;
   }
   #about .edit {
     justify-content: center;
@@ -338,10 +344,12 @@ header .menu .iconbox:hover .icon {
   #about .imgbox {
     width: 195px;
   }
-  #about .yellow-circle h1 {
-    font-size: 19px;
+  #about .yellow-circle {
     width: 105px;
     padding: 12px 18px;
+  }
+  #about .yellow-circle h1 {
+    font-size: 19px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -355,10 +363,12 @@ header .menu .iconbox:hover .icon {
   #about .imgbox {
     max-width: 160px;
   }
-  #about .yellow-circle h1 {
-    font-size: 28px;
+  #about .yellow-circle {
     width: 159px;
     padding: 26px 18px;
+  }
+  #about .yellow-circle h1 {
+    font-size: 28px;
   }
 }
 
