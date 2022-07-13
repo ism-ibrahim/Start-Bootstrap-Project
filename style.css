@@ -212,6 +212,9 @@ header .menu .iconbox:hover .icon {
   opacity: 0;
   transition: 0.8s;
 }
+#portfolio .imgbox .overlay i {
+  cursor: pointer;
+}
 #portfolio .imgbox .overlay:hover {
   opacity: 1;
   transition: 0.5s;
