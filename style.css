@@ -101,12 +101,13 @@ header .menu .iconbox:hover .icon {
 }
 #welcome .textbox .btn {
   padding: 20px 60px;
-  background-color: #dfbf0c;
+  background-color: rgba(213, 169, 23, 0.9529411765);
 }
 #welcome .textbox .btn h2 {
   color: #fff;
   font-weight: 700;
   font-size: 23px;
+  cursor: pointer;
 }
 @media screen and (min-width: 576px) {
   #welcome .textbox h3 {
@@ -134,6 +135,9 @@ header .menu .iconbox:hover .icon {
 @media screen and (min-width: 992px) {
   #welcome .textbox {
     padding: 140px 0;
+  }
+  #welcome .btn {
+    background-color: #dfbf0c;
   }
   #welcome .btn:hover {
     background-color: rgba(213, 169, 23, 0.9529411765);
