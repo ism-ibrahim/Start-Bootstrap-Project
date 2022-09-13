@@ -281,7 +281,7 @@ header .menu .iconbox:hover .icon {
   width: 103px;
   border: 7px solid rgba(231, 234, 234, 0.9960784314);
   border-radius: 50%;
-  padding: 10px 20px;
+  padding: 19px 20px;
 }
 #about .yellow-circle h1 {
   text-align: center;
@@ -336,7 +336,7 @@ header .menu .iconbox:hover .icon {
   }
   #about .yellow-circle {
     width: 86px;
-    padding: 11px 5px;
+    padding: 11px 7px;
     margin-right: 25px;
   }
   #about .yellow-circle h1 {
