@@ -77,8 +77,10 @@ header .menu .iconbox:hover .icon {
     font-size: 18px;
     color: #fff;
     margin: 20px 18px 50px;
+    transition: 1s;
   }
   header .menu nav a:hover {
+    transition: 1s;
     cursor: pointer;
     color: #dfbf0c;
   }
